@@ -1,0 +1,38 @@
+nav{
+  margin-bottom: 24px;
+  display:flex;
+}
+a{
+  text-decoration: none;
+  width: 25%;
+  background-color: black;
+  color: white;
+  padding: 20px 25px;
+  text-align: center;
+} 
+.selected{
+  background-color:goldenrod;
+}
+.containerHome{
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-evenly; */
+}
+.buttonLink{
+  width: 42%;
+  background-color: transparent;
+  align-items: space-around;
+  justify-content: space-around;
+  margin: 15px;
+}
+.containerModularPage{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+.containerModularPage img {
+  width: 35%;
+}
